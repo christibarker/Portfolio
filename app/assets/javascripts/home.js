@@ -2,7 +2,7 @@
 // # All this logic will automatically be available in application.js.
 $(document).ready(function(){
 
-	var eqwords = [
+	var strengths = [
 	"bravery",
 	"courage",
 	"coffee",
@@ -38,13 +38,13 @@ $(document).ready(function(){
 	setInterval(function() {
 	    // var i = Math.round((Math.random()) * eqwords.length);
 	    // if (i == eqwords.length) --i;
-	    if(i>=eqwords.length){
-	        i= eqwords.length-i;
+	    if(i>=strengths.length){
+	        i= strengths.length-i;
 	    }
 	    else{
 	        i++;
 	    }
-	    $("#eqword").html(eqwords[i]);
+	    $("#strength").html(strengths[i]);
 	},200);
 
 });

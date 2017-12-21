@@ -2,13 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.header {
-	background-color:gray;
-}
+// .header {
+// 	background-color:gray;
+// }
 
 .recomendations {
 	background-color: whitespace;
-	height: 400px;
+	height: auto;
 	width: auto;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .skills {
-	background-color: lightpink;
+	background-color: lightgray;
 }
 
 .projects {
@@ -28,3 +28,35 @@
 // 	height: 300px;
 // 	width: 200px;
 // }
+
+.name {
+	text-align: center;
+}
+
+.strheader {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.img {
+	width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.overlay {
+	position: absolute;
+  width: 100%;
+  margin: -385px auto;
+ 	color: white;
+  
+}
+
+
+
+
+
+
+
+
