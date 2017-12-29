@@ -1,0 +1,30 @@
+<h1>Contact Me</h1>
+<div class="row">
+	 	<div class="col l3 s3"></div>
+	 	 <div class="col l6 s9">  
+				<div class="form">
+    			<%= form_with model: @email, class: "new_email" do |f| %>
+		    		<%# f.label :name %>
+		        <%= f.text_field :first_name, placeholder: 'first name', class: "form-control", id: "first_name" %>
+		        <br>
+		        <%# f.label :name %>
+		        <%= f.text_field :last_name, placeholder: 'last name', class: "form-control", id: "last_name" %>
+		        <br>
+		          <%# f.label :email %>
+		        <%= f.email_field :email, placeholder: 'email', class: "form-control", id: "email" %>
+		        <br>
+		        <%# f.label :subject %>
+		        <%= f.text_field :subject, placeholder: 'subject', class: "form-control", id: "subject" %>
+		        <br>
+		        <%# f.label :message %>
+		        <%= f.text_field :message, placeholder: 'message', class: "form-control", id: "message" %>
+		        <br>
+		        <br>
+		        <div class="black-text">
+		        	<%= f.submit "Contact Us" %>
+        		</div>
+    			<% end %>
+				</div>	
+		</div>
+		<div class="col l3 s3"></div>
+	</div>

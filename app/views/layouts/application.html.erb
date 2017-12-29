@@ -3,12 +3,51 @@
   <head>
     <title>Portfolio</title>
     <%= csrf_meta_tags %>
-
+  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+
+  <nav>
+    <div class="nav-wrapper">
+      <!-- <a href="#" class="brand-logo">Logo</a> -->
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">Resume</a></li>
+        <li><a href=""><%= link_to "About Me", static_path('index') %> </a></li>
+        <li><a href="collapsible.html"><%= link_to "Contact", email_index_path %></a></li>
+      </ul>
+    </div>
+  </nav>
     <%= yield %>
+    <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Resume</h5>
+                <h5 class="white-text"><%= link_to "About Me", static_path('index') %></h5>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Contact Me</h5>
+                <ul>
+                  <li>text: (801)616-7305</li>
+                  <li>email: kaco7777@gmail.com</li>
+                </ul>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/christi-ovchinnikov-barker/">Linked in </a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://github.com/christibarker">git hub</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 Copyright Text
+            <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+            </div>
+          </div>
+        </footer>
+            
   </body>
 </html>
