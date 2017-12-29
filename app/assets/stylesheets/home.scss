@@ -6,10 +6,12 @@
 // 	background-color:gray;
 // }
 
-.recomendations {
-	background-color: whitespace;
+
+.recomendation {
+	// background-color: #FFF8DC;
 	height: auto;
 	width: auto;
+	
 }
 
 .center{
@@ -17,12 +19,12 @@
 }
 
 .skills {
-	background-color: lightgray;
+	background-color: #FFFACD;
 }
 
-.projects {
-	background-color: lightgray;
-}
+// .projects {
+// 	background-color: #FFFACD;
+// }
 
 // .card {
 // 	height: 300px;
@@ -48,9 +50,13 @@
 .overlay {
 	position: absolute;
   width: 100%;
-  margin: -385px auto;
+  margin: -290px auto;
  	color: white;
-  
+}
+
+.img_size {
+	height: 100px;
+	width: 200px;
 }
 
 

@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'email/index'
+
 	get "/pages/:page" => "pages#index", as: 'static'
 
   resources :home
