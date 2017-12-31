@@ -35,7 +35,14 @@ body {
 .small {
 	height: 55px;
 	width: 55px;
-	display: inline-block;
+	// display: inline-block;
+}
+
+.smaller {
+	height: 40px;
+	width: 40px;
+	margin-top: 26%;
+	// display: inline-block;
 }
 
 .left {
