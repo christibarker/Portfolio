@@ -6,7 +6,7 @@
 // 	background-color:gray;
 // }
 
-
+// recommendation section 
 .recomendation {
 	// background-color: #FFF8DC;
 	height: auto;
@@ -20,21 +20,28 @@
 
 .center{
 	text-align: center;
+	margin-top: 2%;
 }
 
+// skills section 
 .skills {
 	background-color: #795548;
 }
 
-// .projects {
-// 	background-color: #FFFACD;
-// }
+// project section
 
-// .card {
-// 	height: 300px;
-// 	width: 200px;
-// }
+.card-content {
+	height: 200px;
+	width: 200px;
+}
 
+.card-action {
+	height: 64px;
+	width: 200px;
+}
+
+
+// header and overlay section
 .name {
 	text-align: center;
 }
@@ -42,7 +49,7 @@
 .strheader {
 	text-align: center;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 35px;
 }
 
 .img {
