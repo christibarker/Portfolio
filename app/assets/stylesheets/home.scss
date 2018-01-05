@@ -1,0 +1,90 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// .header {
+// 	background-color:gray;
+// }
+
+// recommendation section 
+.recomendation {
+	// background-color: #FFF8DC;
+	height: auto;
+	width: auto;
+}
+
+.snippets {
+	border-bottom: dotted;
+	border-color: rgb(220, 121, 120);
+}
+
+.center{
+	text-align: center;
+	margin-top: 2%;
+}
+
+// skills section 
+.skills {
+	background-color: #795548;
+}
+
+// project section
+
+.card-content {
+	height: 200px;
+	width: 200px;
+}
+
+.card-action {
+	height: 64px;
+	width: 200px;
+}
+
+
+// header and overlay section
+.name {
+	text-align: center;
+}
+
+.strheader {
+	text-align: center;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+.img {
+	width: 100%;
+  height: 500px;
+  position: relative;
+  margin-top: -2%;
+}
+
+.overlay {
+	position: absolute;
+  width: 100%;
+  margin: -370px auto;
+ 	color: white;
+}
+
+.img_size {
+	height: 100px;
+	width: 200px;
+}
+
+.margin {
+	margin_top: -10px; 
+	// margin_botton: -10px;
+	height: 75px; 
+}
+
+.size {
+	height: 155px;
+	width: 55px;
+}
+
+
+
+
+
+
+
