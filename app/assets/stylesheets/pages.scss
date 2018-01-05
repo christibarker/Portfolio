@@ -1,3 +1,41 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+// recomendation css 
+
+.recomendation {
+	// background-color: #FFF8DC;
+	height: auto;
+	width: auto;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.font_size {
+	font-size: 18px;
+	// box-shadow: 5px, 10px, rgb(220, 121, 120);
+	// // background-color: whitespace;
+	border-bottom: dotted;
+	border-color: rgb(220, 121, 120);
+}
+
+
+
+// about me css	
+
+.picture {
+	height: 200px;
+	width: 275px;
+	margin-top: 7%;
+}
+
+.my_pic {
+	height: 275px;
+	width: 200px;
+	margin-left: 24%;
+  margin-top: -11%;
+}
+
