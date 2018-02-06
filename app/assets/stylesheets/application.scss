@@ -27,21 +27,33 @@ font-family: 'Trade Winds', cursive;
  background-color: #795548;
 }
 
-
 .page-footer {
 	background-color: #795548;
 }
 
+.font {
+	font-size: 16px;
+}
+
+.font_sm {
+	font-size: 12px;
+}
+
+.right {
+	text-align: right;
+	margin-right: 5%;
+}
+
 .small {
-	height: 50px;
-	width: 50 px;
+	height: 45px;
+	width: 45 px;
 	// display: inline-block;
 }
 
 .smaller {
 	height: 40px;
 	width: 40px;
-	margin-top: 26%;
+	// margin-top: 26%;
 	// display: inline-block;
 }
 
