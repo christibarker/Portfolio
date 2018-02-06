@@ -47,6 +47,18 @@
 
 // links 
 
-a {
+a:visited {
 	color: rgb(220, 121, 120);
 }
+
+// a:link {
+// 	color: #ffffff;
+// }
+
+a:hover {
+    color: rgb(110, 199, 173);
+}
+
+
+
+
