@@ -7,13 +7,16 @@
 // }
 
 // recommendation section 
-.recomendation {
-	// background-color: #FFF8DC;
+.recomendations {
+	font-family: 'Bellefair', serif;
+	text-align: justify;
 	height: auto;
 	width: auto;
+	font-size: 15px;
 }
 
 .snippets {
+	font-family: 'Bellefair', serif;
 	border-bottom: dotted;
 	border-color: rgb(220, 121, 120);
 }
@@ -25,20 +28,30 @@
 
 // skills section 
 .skills {
-	background-color: #795548;
+	background-color: black;
+	// background-color: rgb(87, 76, 61);
+	padding-bottom: 1%;
+}
+
+.skill {
+	background-color: black;
+	// background-color: rgb(87, 76, 61);
+	margin-bottom: 0%;
+	text-align: center;
+	padding-top: 3px;
 }
 
 // project section
 
 .card-content {
-	height: 129px;
-	width: 200px;
+	height: auto;
+	width: auto;
 	text-align: center;
 }
 
 .card-action {
-	height: 64px;
-	width: 200px;
+	height: auto;
+	width: auto;
 	text-align: center;
 }
 

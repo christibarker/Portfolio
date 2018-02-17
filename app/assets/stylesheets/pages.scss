@@ -6,6 +6,8 @@
 
 .recomendation {
 	// background-color: #FFF8DC;
+	font-family: 'Bellefair', serif;
+	text-align: justify;
 	height: auto;
 	width: auto;
 }
@@ -16,11 +18,16 @@
 
 .font_size {
 	font-size: 18px;
+	font-family: 'Bellefair', serif;
+	text-align: justify;
 	// box-shadow: 5px, 10px, rgb(220, 121, 120);
 	// // background-color: whitespace;
 }
 
 .border {
+	font-family: 'Bellefair', serif;
+	text-align: justify;
+	text-align: right;
 	border-bottom: dotted;
 	border-color: rgb(220, 121, 120);
 }
@@ -30,34 +37,43 @@
 .picture {
 	height: 200px;
 	width: 275px;
-	margin-top: 28%;
+	margin-top: 11%;
+	margin-left: 5%;
 }
 
 .my_pic {
 	height: 275px;
 	width: 200px;
-	margin-left: 17%;
-  margin-top: 13%;
+	margin-left: 20%;
+  margin-bottom: auto;
 }
 
 .about_me	{
+	font-family: 'Bellefair', serif;
+	text-align: justify;
 	font-size: 18px;
 	height: auto;
+	// margin-left: 10%;
+}
+
+.interests {
+	font-family: 'Bellefair', serif;
+	font-size: 15px;
 }
 
 // links 
 
-a:visited {
-	color: rgb(220, 121, 120);
-}
+// a:visited {
+// 	color: rgb(220, 121, 120);
+// }
 
 // a:link {
 // 	color: #ffffff;
 // }
 
-a:hover {
-    color: rgb(110, 199, 173);
-}
+// a:hover {
+//     color: rgb(110, 199, 173);
+// }
 
 
 
