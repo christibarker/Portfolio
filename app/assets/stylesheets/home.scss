@@ -65,6 +65,29 @@
 	box-shadow: 10px 10px 5px rgb(220, 121, 120);
 }
 
+.align_left {
+	margin-left: 6%;
+ }
+
+aside.sticker {
+  margin-top: -27%;
+  margin-left: 10%;
+	position: absolute;
+  font-size: 12px;
+  text-shadow: 0px 0px 3px rgba(0,0,0,0.4);
+  color: black;
+  width: 158px;
+  height: 150px;
+  display: inline-block;
+  border-radius: 23%;
+  background: -webkit-linear-gradient(135deg, transparent 32px, #eee 20px, rgb(220, 121, 120));
+  text-align: center;
+  padding-top: 18px;
+  box-sizing: border-box;
+  overflow: hidden;
+  // margin-left: -67%;
+}
+
 
 // header and overlay section
 .name {
