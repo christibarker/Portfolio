@@ -29,13 +29,13 @@
 
 // skills section 
 .skills {
-	background-color: black;
+	background-color: rgb(27, 12, 8);
 	// background-color: rgb(87, 76, 61);
 	padding-bottom: 1%;
 }
 
 .skill {
-	background-color: black;
+	background-color: rgb(27, 12, 8);
 	// background-color: rgb(87, 76, 61);
 	margin-bottom: 0%;
 	text-align: center;
@@ -43,6 +43,10 @@
 }
 
 // project section
+
+.card {
+	border: none;
+}
 
 .card-content {
 	height: auto;
@@ -82,7 +86,9 @@
 	width: 100%;
   height: 500px;
   position: relative;
-  margin-top: -2%;
+  margin-top: -1%;
+  // background-color: rgb(27, 12, 8);
+  margin-bottom: 1%;
 }
 
 .overlay {
@@ -108,7 +114,13 @@
 	width: 55px;
 }
 
-
+.under {
+	background-color: rgb(27, 12, 8);
+	position: absolute;
+  width: 100%;
+  height: 5%;
+  margin-top: -2%;
+}
 
 
 
