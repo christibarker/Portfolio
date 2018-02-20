@@ -18,7 +18,8 @@
 .snippets {
 	font-family: 'Bellefair', serif;
 	border-bottom: dotted;
-	border-color: rgb(220, 121, 120);
+	// border-color: rgb(220, 121, 120);
+	border-color: rgb(125, 225, 83);
 	text-align: right;
 }
 
@@ -40,7 +41,7 @@
 	margin-bottom: 0%;
 	text-align: center;
 	padding-top: 3px;
-	margin-top: 3%;
+	margin-top: 1%;
 }
 
 // project section
@@ -67,51 +68,80 @@
 }
 
 .button {
-	height: 200px;
+	height: 145px;
 	width: 350px;
-	margin-left: 10%;
+	// margin-left: 10%;
+}
+.hover:hover {
+		-moz-box-shadow: 0 0 30px rgb(125, 225, 83);
+		-webkit-box-shadow: 0 0 30px rgb(125, 225, 83);
+		box-shadow: 0 0 30px rgb(125, 225, 83);
 }
 
 .onxy_overlay {
 	position: absolute;
-	width: 100%;
-	margin: -118px 150px;
+	// width: 100%;
+	margin: -95px 125px;
 	font-size: 25px;
+}
+
+.onyx {
+	margin-left: 5%
 }
 
 .fedups_overlay {
 	position: absolute;
-	width: 100%;
-	margin: -118px 170px;
+	// width: 100%;
+	margin: -95px 185px;
 	font-size: 25px;
+}
+
+.fedups {
+	margin-left: 15%
 }
 
 .cookie_overlay {
 	position: absolute;
-	width: 100%;
-	margin: -118px 125px;
+	// width: 100%;
+	margin: -95px 95px;
 	font-size: 25px;
+}
+
+.cookie {
+	// margin-left: 5%
 }
 
 .oh_app_overlay {
 	position: absolute;
-	width: 100%;
-	margin: -118px 170px;
+	// width: 100%;
+	margin: -95px 235px;
 	font-size: 25px;
+}
+
+.oh {
+	margin-left: 31%
 }
 
 .wof_overlay {
 	position: absolute;
-	width: 100%;
-	margin: -118px 120px;
+	// width: 100%;
+	margin: -95px 130px;
 	font-size: 25px;
+}
+
+.wof {
+	margin-left: 15%
 }
 
 .mtc_overlay {
 	position: absolute;
 	width: 100%;
-	margin: -118px 125px;
+	margin: -95px 195px;
 	font-size: 25px;
+}
+
+.mtc {
+	margin-left: 31%
 }
 
 
@@ -119,7 +149,7 @@
 .name {
 	text-align: center;
 	font-size: 3.9em;
-	margin-top: 5%;
+	margin-top: 4%;
 }
 
 .name_two {
@@ -132,6 +162,7 @@
 	text-align: center;
 	font-weight: bold;
 	font-size: 28px;
+	margin-top: -2%;
 }
 
 .img {
@@ -170,8 +201,8 @@
 	background-color: rgb(27, 12, 8);
 	position: absolute;
   width: 100%;
-  height: 3%;
-  margin-top: -2%;
+  height: 5%;
+  margin-top: 10%;
 }
 
 

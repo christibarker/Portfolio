@@ -1,131 +1,130 @@
-<%= image_tag asset_url('header.003.jpg'), class: "img" %>  
-  <div class="overlay">
-    <h3 class="name_two black-text">Full Stack Web Developer</h3>
-      <h1 class="name black-text">Christi Barker</h1>
-      
-      <br>
-    <div class="strheader">
-      <div class="strspantext1 black-text">I AM
-        <!-- <div class="strength-word-change">{ -->
-          <div class="strIB">
-            <div id="strength" class="strength black-text"></div>
-          </div>
-         <!--  <div class="strR">}</div> -->
-        </div><br>
-        <!-- <div class="eqspantext2">= AWESOME.</div> -->
+<%= image_tag asset_url('header_color.jpg'), class: "img" %>  
+<div class="overlay">
+  <h1 class="name black-text">Christi Barker</h1>
+  <h3 class="name_two black-text">Full Stack Web Developer</h3>
+  <br>
+  <div class="strheader">
+    <div class="strspantext1 black-text">
+      <div class="strIB">
+        <div id="strength" class="strength black-text">
+        </div>
       </div>
+    </div>
   </div>
   <div class="under"></div>
+</div>
+
   <!--     website projects-->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col s4 m4"></div>
-      <div class="col s4 m4">
-        <h4 class="centered">My Projects</h4>
-      </div>
-      <div class="col s4 m4"></div>
-      </div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col s4 m4"></div>
+    <div class="col s4 m4">
+      <h4 class="centered">My Projects</h4>
     </div>
-    <div class="row">
-      <div class="col offset-s1 s1 m1"></div>
-      <div class="col offset-s1 s3 m3">
-        <%= image_tag asset_url('p_button.jpg'), class: "button" %>
-        <a class="onxy_overlay" href="https://onyx-pole.herokuapp.com/
-                " target="_blank">Onxy Pole</a></span>
-      </div>
-      <div class="col offset-s1 s3 m3">
-         <%= image_tag asset_url('p_button.jpg'), class: "button" %>
-        <a class="oh_app_overlay" href="https://nycdaohapp.herokuapp.com/users/sign_in" target="_blank">Oh App</a>
-       
-      </div>
-      <div class="col offset-s1 s3 m3">
-         <%= image_tag asset_url('p_button.jpg'), class: "button" %>
-        <a class="fedups_overlay" href="https://fedups.herokuapp.com/home" target="_blank">FedUps</a>
-      </div>
-      <div class="col offset-s1 s2 m2"></div>
+    <div class="col s4 m4"></div>
+  </div>
+  <div class="row">
+    <div class="col offset-s1 s1 m1"></div>
+    <div class="col offset-s1 s3 m3">
+      <%# image_tag asset_url('projects.png'), class: "button" %> 
+      <%= image_tag asset_url('p_button.jpg'), class: "button onxy" %> 
+      <a class="onxy_overlay hover" href="https://onyx-pole.herokuapp.com/
+                " target="_blank">Onxy Pole</a>
     </div>
-    <div class="row">
-      <div class="col offset-s1 s1 m1"></div>
-      <div class="col offset-s1 s3 m3">
-       <%= image_tag asset_url('p_button.jpg'), class: "button" %>
-        <a class="cookie_overlay" href="http://christis-cookie-counter.herokuapp.com/" target="_blank">Cookie Counter</a>
-      </div>
-      <div class="col offset-s1 s3 m3">
-        <%= image_tag asset_url('p_button.jpg'), class: "button" %>
-        <a class="wof_overlay" href="http://christis-wheel-of-fortune.herokuapp.com/" target="_blank">Wheel of Fortune</a>     
-      </div>
-      <div class="col offset-s1 s3 m3"><%= image_tag asset_url('p_button.jpg'), class: "button" %>
-          <div class="mtc_overlay">More to Come...</div>
-      </div>
-      <div class="col offset-s1 s2 m2"></div>
+    <div class="col offset-s1 s3 m3">
+      <%# image_tag asset_url('projects.png'), class: "button" %> 
+      <%= image_tag asset_url('p_button.jpg'), class: "button fedups" %>
+      <a class="fedups_overlay hover" href="https://fedups.herokuapp.com/home" target="_blank">FedUps</a>
     </div>
-    <div class="skill white-text">
-      <div class="col s4 m4"></div>
-      <div class="col s4 m4">
-        <h4 class="skill">Skills</h4>
-      <div class="col s4 m4"></div>
-      </div>
+    <div class="col offset-s1 s3 m3">
+      <%# image_tag asset_url('projects.png'), class: "button" %> 
+      <%= image_tag asset_url('p_button.jpg'), class: "button oh" %>
+      <a class="oh_app_overlay hover" href="https://nycdaohapp.herokuapp.com/users/sign_in" target="_blank">Oh App</a> 
     </div>
-    <div class="row skills white-text">
-      <div class="col s2 m2"></div>
-      <div class="col s3 m3">
-        <ul>
-          <li class="center">HTML/CSS</li>
-          <li class="center">GitHub</li>
-          <li class="center">Ruby/Rails</li>
-          
-        <!--   <li class="center">Excellent multitasking and organization skills
-          </li>  --> 
-        </ul>
-      </div>
-      <div class="col s2 m2">
-        <h2></h2>
-        <ul>
-          <li class="center">Sinatra</li>
-          <li class="center">Git</li>   
-          <li class="center">Javascript</li>
-       <!--    <li class="center">MSOffice (Word,Excel,PowerPoint)</li> -->
-        </ul>
-      </div>
-      <div class="col s3 m3">
-        <ul>
-          <li class="center">Heroku</li>
-          <li class="center">Coffeescript</li>
-          <li class="center">SQL/Postgres</li>
-        </ul>
-      </div>
-      <div class="col s2 m2"></div>
+    <div class="col offset-s1 s3 m3"></div>
+  </div>
+  <div class="row">
+    <div class="col offset-s1 s1 m1"></div>
+    <div class="col offset-s1 s3 m3">
+      <%# image_tag asset_url('projects.png'), class: "button" %> 
+      <%= image_tag asset_url('p_button.jpg'), class: "button cookie" %>
+      <a class="cookie_overlay hover" href="http://christis-cookie-counter.herokuapp.com/" target="_blank">Cookie Counter</a>
     </div>
-    <div class="row">
-      <div class="col s12 m12">
-        <h4 class= "center">Recommendations</h4>
-      </div>
+    <div class="col offset-s1 s3 m3">
+      <%# image_tag asset_url('projects.png'), class: "button" %> 
+      <%= image_tag asset_url('p_button.jpg'), class: "button wof" %>
+      <a class="wof_overlay hover" href="http://christis-wheel-of-fortune.herokuapp.com/" target="_blank">Wheel of Fortune</a>     
     </div>
-    <div class="row">
-      <div class="col s1 m1"></div>
-      <div class="col s4 m4 recomendations">
-        <p>“I've seen first-hand her determination and ability to learn quickly. Like all good engineers, Christi's mind keeps working on the problem even when she's not busy coding at her keyboard.”</p>
-        <div class= "snippets"><span>Owen Graupman
-          - DevOps Architect at Willis Towers Watson's OneExchange</span></div>
-        <p>"Christi is fearless! Inspires me with her quality of character, work ethic and determination. She shows a lot of care, passion, and a flair for design"</p>
-        <div class="snippets"><span>Sam Lubin</span> - NYCDA</div>
-      </div>
-      <div class="col s2 m2"></div>
-      <div class="col s4 m4 recomendations">
-        <p>"Extremely driven and talented. Christi will continue to work through a problem until a sustainable and satisfactory result is achieved.”</p> 
-        <div class="snippets"><span>Joshua Besser
-            - Director Planning, Procurement & Energy - Nitrogen Products @ Dyno Nobel</span></div>
-        <p>“Whatever she puts her mind to, she will see it through to the end. Get Christi on your team.”</p>
-        <div class="snippets"><span>Ryan Richardson
-           - Full Stack Web Developer</span></div>
-        <p>“She's a doer and she's dedicated.”</p>
-        <div class="snippets"><span>Casey Stinett
-          - NYCDA</span></div>
-      </div>
-      <div class="col s1 m1"></div>
+    <div class="col offset-s1 s3 m3">
+      <%# image_tag asset_url('projects.png'), class: "button" %> 
+      <%= image_tag asset_url('p_button.jpg'), class: "button mtc" %>
+      <div class="mtc_overlay">More to Come...</div>
+    </div>
+    <div class="col offset-s1 s3 m3"></div>
+  </div>
+  <div class="skill white-text">
+    <div class="col s4 m4"></div>
+    <div class="col s4 m4">
+      <h4 class="skill">Skills</h4>
+    </div>
+    <div class="col s4 m4"></div>
+  </div>
+  <div class="row skills white-text">
+    <div class="col s2 m2"></div>
+    <div class="col s3 m3">
+      <ul>
+        <li class="center">HTML/CSS</li>
+        <li class="center">GitHub</li>
+        <li class="center">Ruby/Rails</li>
+      </ul>
+    </div>
+    <div class="col s2 m2">
+      <h2></h2>
+      <ul>
+        <li class="center">Sinatra</li>
+        <li class="center">Git</li>   
+        <li class="center">Javascript</li>
+      </ul>
+    </div>
+    <div class="col s3 m3">
+      <ul>
+        <li class="center">Heroku</li>
+        <li class="center">Coffeescript</li>
+        <li class="center">SQL/Postgres</li>
+      </ul>
+    </div>
+    <div class="col s2 m2"></div>
+  </div>
+  <div class="row">
+    <div class="col s12 m12">
+      <h4 class= "center">Recommendations</h4>
     </div>
   </div>
+  <div class="row">
+    <div class="col s1 m1"></div>
+    <div class="col s4 m4 recomendations">
+      <p>“I've seen first-hand her determination and ability to learn quickly. Like all good engineers, Christi's mind keeps working on the problem even when she's not busy coding at her keyboard.”</p>
+      <div class= "snippets"><span>Owen Graupman
+        - DevOps Architect at Willis Towers Watson's OneExchange</span></div>
+      <p>"Christi is fearless! Inspires me with her quality of character, work ethic and determination. She shows a lot of care, passion, and a flair for design"</p>
+      <div class="snippets"><span>Sam Lubin</span> - NYCDA</div>
+    </div>
+    <div class="col s2 m2"></div>
+    <div class="col s4 m4 recomendations">
+      <p>"Extremely driven and talented. Christi will continue to work through a problem until a sustainable and satisfactory result is achieved.”</p> 
+      <div class="snippets"><span>Joshua Besser
+        - Director Planning, Procurement & Energy - Nitrogen Products @ Dyno Nobel</span></div>
+      <p>“Whatever she puts her mind to, she will see it through to the end. Get Christi on your team.”</p>
+      <div class="snippets"><span>Ryan Richardson
+       - Full Stack Web Developer</span></div>
+      <p>“She's a doer and she's dedicated.”</p>
+      <div class="snippets"><span>Casey Stinett
+      - NYCDA</span></div>
+    </div>
+    <div class="col s1 m1"></div>
+  </div>
+</div>
+
 
 
     
-            
