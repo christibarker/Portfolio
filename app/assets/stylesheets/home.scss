@@ -19,7 +19,7 @@
 	font-family: 'Bellefair', serif;
 	border-bottom: dotted;
 	// border-color: rgb(220, 121, 120);
-	border-color: rgb(125, 225, 83);
+	border-color: rgb(12, 42, 143);
 	text-align: right;
 }
 
@@ -52,21 +52,6 @@
 	margin-bottom: 3%;
 }
 
-.card-content {
-	height: auto;
-	width: auto;
-	text-align: center;
-}
-
-.card-action {
-	height: auto;
-	width: auto;
-}
-
-.b_color {
-	box-shadow: 10px 10px 5px rgb(220, 121, 120);
-}
-
 .button {
 	height: 145px;
 	width: 350px;
@@ -74,9 +59,9 @@
 }
 
 .hover:hover {
-		-moz-box-shadow: 0 0 30px rgb(125, 225, 83);
-		-webkit-box-shadow: 0 0 30px rgb(125, 225, 83);
-		box-shadow: 0 0 30px rgb(125, 225, 83);
+		-moz-box-shadow: 0 0 30px rgb(12, 42, 143);
+		-webkit-box-shadow: 0 0 30px rgb(12, 42, 143);
+		box-shadow: 0 0 30px rgb(12, 42, 143);
 }
 
 .onxy_overlay {
@@ -150,13 +135,13 @@
 .name {
 	text-align: center;
 	font-size: 3.9em;
-	margin-top: 4%;
+	margin-top: 2%;
 }
 
 .name_two {
 	text-align: center;
 	font-size: 2em;
-	margin-top: -2%;
+	margin-top: 2%;
 }
 
 .strheader {
