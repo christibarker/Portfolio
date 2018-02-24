@@ -16,50 +16,33 @@
   <!--     website projects-->
 <div class="container-fluid">
   <div class="row">
-    <div class="col s4 m4"></div>
-    <div class="col s4 m4">
-      <h4 class="centered">My Projects</h4>
-    </div>
-    <div class="col s4 m4"></div>
+    <h4 class="centered">My Projects</h4>
   </div>
-  <div class="row">
-    <div class="col offset-s1 s1 m1"></div>
-    <div class="col offset-s1 s3 m3">
-      <%# image_tag asset_url('projects.png'), class: "button" %> 
-      <%= image_tag asset_url('blue_tile.jpg'), class: "button onxy" %> 
-      <a class="onxy_overlay hover" href="https://onyx-pole.herokuapp.com/
-                " target="_blank">Onxy Pole</a>
+  <div class="row projects">
+    <div class="project col s12 m6 l4">
+      <%= image_tag asset_url('blue_tile.jpg')%> 
+      <div><a href="https://onyx-pole.herokuapp.com/" target="_blank" class="flow-text">Onyx Pole</a></div>
     </div>
-    <div class="col offset-s1 s3 m3">
-      <%# image_tag asset_url('projects.png'), class: "button" %> 
-      <%= image_tag asset_url('blue_tile.jpg'), class: "button fedups" %>
-      <a class="fedups_overlay hover" href="https://fedups.herokuapp.com/home" target="_blank">FedUps</a>
+    <div class="project col s12 m6 l4">
+      <%= image_tag asset_url('blue_tile.jpg') %> 
+      <div><a href="https://fedups.herokuapp.com/home" target="_blank" class="flow-text">FedUps</a></div>
     </div>
-    <div class="col offset-s1 s3 m3">
-      <%# image_tag asset_url('projects.png'), class: "button" %> 
-      <%= image_tag asset_url('blue_tile.jpg'), class: "button oh" %>
-      <a class="oh_app_overlay hover" href="https://nycdaohapp.herokuapp.com/users/sign_in" target="_blank">Oh App</a> 
+    <div class="project col s12 m6 l4">
+      <%= image_tag asset_url('blue_tile.jpg') %> 
+      <div><a href="https://nycdaohapp.herokuapp.com/users/sign_in" target="_blank" class="flow-text">Oh App</a></div>
     </div>
-    <div class="col offset-s1 s3 m3"></div>
-  </div>
-  <div class="row">
-    <div class="col offset-s1 s1 m1"></div>
-    <div class="col offset-s1 s3 m3">
-      <%# image_tag asset_url('projects.png'), class: "button" %> 
-      <%= image_tag asset_url('blue_tile.jpg'), class: "button cookie" %>
-      <a class="cookie_overlay hover" href="http://christis-cookie-counter.herokuapp.com/" target="_blank">Cookie Counter</a>
+    <div class="project col s12 m6 l4">
+      <%= image_tag asset_url('blue_tile.jpg') %> 
+      <div><a href="http://christis-cookie-counter.herokuapp.com/" target="_blank" class="flow-text">Cookie Counter</a></div>
     </div>
-    <div class="col offset-s1 s3 m3">
-      <%# image_tag asset_url('projects.png'), class: "button" %> 
-      <%= image_tag asset_url('blue_tile.jpg'), class: "button wof" %>
-      <a class="wof_overlay hover" href="http://christis-wheel-of-fortune.herokuapp.com/" target="_blank">Wheel of Fortune</a>     
+    <div class="project col s12 m6 l4">
+      <%= image_tag asset_url('blue_tile.jpg') %> 
+      <div><a href="http://christis-wheel-of-fortune.herokuapp.com/" target="_blank" class="flow-text">Wheel of Fortune</a></div>
     </div>
-    <div class="col offset-s1 s3 m3">
-      <%# image_tag asset_url('projects.png'), class: "button" %> 
-      <%= image_tag asset_url('blue_tile.jpg'), class: "button mtc" %>
-      <div class="mtc_overlay">More to Come...</div>
+    <div class="project col s12 m6 l4">
+      <%= image_tag asset_url('blue_tile.jpg') %>
+      <div>More To Come...</div>
     </div>
-    <div class="col offset-s1 s3 m3"></div>
   </div>
   <div class="skill white-text">
     <div class="col s4 m4"></div>

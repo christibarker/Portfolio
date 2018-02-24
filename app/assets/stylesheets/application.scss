@@ -17,10 +17,15 @@
 
 @import "materialize";
 @import "https://fonts.googleapis.com/icon?family=Material+Icons";
+@import url("shetland.css") screen and (max-device-width: 480px);
 
 
 body {
-font-family: 'Kavivanar', cursive;
+	font-family: 'Kavivanar', cursive;
+	width:100%;
+	margin:auto;
+	// min-width:600px;
+	// max-width:2000px
 }
 
 .nav-wrapper {
