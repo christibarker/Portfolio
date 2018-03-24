@@ -45,6 +45,6 @@ $(document).ready(function(){
 	        i++;
 	    }
 	    $("#strength").html(strengths[i]);
-	},300);
+	},450);
 
 });
